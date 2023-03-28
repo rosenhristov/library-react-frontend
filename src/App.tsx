@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
+import {HomePage} from "./layouts/HomePage/HomePage";
 import {Navbar} from "./layouts/NavbarAndFooter/Navbar";
-import {ExploreTopBooks} from "./layouts/HomePage/components/ExploreTopBooks";
-import {Carousel} from "./layouts/HomePage/components/Carousel";
+import {Footer} from "./layouts/NavbarAndFooter/Footer";
 
 export const App = () => {
   return (
       <div>
-        <Navbar/>
-        <ExploreTopBooks/>
-        <Carousel/>
+          <Navbar/>
+          <HomePage/>
+          <Footer/>
       </div>
   )
 }

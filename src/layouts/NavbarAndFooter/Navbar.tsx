@@ -4,7 +4,7 @@ export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark main-color py-3">
             <div className='container-fluid'>
-                <span className='navbar-brand'>Club-35</span>
+                <span className='navbar-brand'>©Biblioteka, Inc</span>
                 <button type='button' className='navbar-toggler' data-bs-toggle='collapse' data-bs-target='#navbarNavDropdown'
                         arial-controls='navbarNavDropDown' aria-expanded='false' aria-label='Toggle Navigation'>
                     <span className='navbar-toggler-icon'></span>
